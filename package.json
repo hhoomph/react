@@ -1,0 +1,21 @@
+{
+    "name": "app",
+    "version": "1.0.0",
+    "description": "node app",
+    "main": "index.js",
+    "engines": {
+        "node": "10.2.1",
+        "npm": "6.1.0"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"no test specified \" && exit 1"
+    },
+    "author": "H.H",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.15.3",
+        "passport": "^0.4.0",
+        "passport-google-oauth20": "^1.0.0"
+    }
+}
